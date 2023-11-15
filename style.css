@@ -1,0 +1,32 @@
+@import "normalize.css";
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  
+  /* To prevent margin collapse. */
+  display: flex;
+  flex-direction: column;
+  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Draw a light line around the canvas element that P5.js inserts into the DOM.
+This can be removed. */
+main canvas {
+  border: 1px solid #ccc;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+input#prompt-input {
+  width: 900px;
+  font-size: 20px;
+  padding: 10px;
+}
